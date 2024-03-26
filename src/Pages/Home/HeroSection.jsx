@@ -4,7 +4,7 @@ export default function HeroSection(){
             <section id="heroSection" className="hero--section">
             <div className="hero--section--content--box">
             <div className="hero--section-content">
-                <p className="section--title">Hey , I am Guru</p>
+                <p className="section--title">Hey , I am Guru </p>
                 <h1 className="hero--section--title">
                     <span className="hero--section-title--color">Full Stack</span>
                     {""}
@@ -12,18 +12,19 @@ export default function HeroSection(){
                     Developer
                 </h1>
                         <p className="hero--section-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.
-                        <br />Dolorum , quas , recusandae. Est, cumque.
+                        Aspiring Fullstack Developer | Experienced with React, C and Python | UG @ SUTD Computer Science & Design
+                        <br />Excited to learn and grow in the tech industry!
                         
                         </p>
                 
                 
             </div>
-            <button className="btn btn-primary">Get in Touch</button>
+            <button className="btn btn-primary" onClick={() => window.location.href = 'https://www.linkedin.com/in/guruprasath3200/'}>Get in Touch</button>
+
 
             </div>
             <div className="hero--section--img">
-                <img src="https://images.unsplash.com/photo-1612838320302-4b3b3b3b3b3b" alt="hero" />
+                <img src="./img/hero_img.png" alt="hero" />
             </div>
             </section>
         </div>

@@ -1,29 +1,82 @@
 {
-    "skills":[
-        {
-            "id":1,
-            "src":"./product-chain-1.png",
-            "title":"Front End",
-            "description":",Lorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor amet"
-        },
-        {
-            "id":2,
-            "src":"./product-chain-1.png",
-            "title":"Front End",
-            "description":",Lorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor amet"
-        },
-        {
-            "id":3,
-            "src":"./product-chain-1.png",
-            "title":"Front End",
-            "description":",Lorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor amet"
-        },
-        {
-            "id":4,
-            "src":"./product-chain-1.png",
-            "title":"Front End",
-            "description":",Lorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor ametLorem ipsum sit dolor amet"
-        }
+  "skills": [
+  {
+  "id": "1",
+  "src": "./img/product-chain-1.png",
+  "title": "Front-End Development",
+  "description": "Proficient in developing responsive and user-friendly web interfaces using HTML, CSS, and JavaScript. Experienced in creating cross-device compatible designs and implementing best practices for optimal user experience."
+  },
+  {
+  "id": "2",
+  "src": "./img/tag-1.png",
+  "title": "Back-End Development",
+  "description": "Skilled in back-end development using Java and Firebase for data storage and management. Developed a fitness tracking application with robust back-end functionalities, demonstrating expertise in server-side programming and database integration."
+  },
+  {
+  "id": "3",
+  "src": "./img/feather-pen-2.png",
+  "title": "Full-Stack Web Development",
+  "description": "Experienced in full-stack web development, proficient in both front-end technologies (HTML, CSS, JavaScript) and back-end technologies (Java, Express, MySQL). Capable of building end-to-end web applications with seamless integration between client and server sides."
+  },
+  {
+  "id": "4",
+  "src": "./img/feather-pen-1.png",
+  "title": "Automation and Web Scraping",
+  "description": "Developed Python scripts for automation tasks, leveraging web scraping techniques and libraries such as BeautifulSoup and Selenium. Proficient in extracting and processing data from websites, enhancing efficiency and productivity."
+  },
+  {
+  "id": "5",
+  "src": "./img/feather-pen-1.png",
+  "title": "Robotics and Embedded Systems",
+  "description": "Experience in robotics and embedded systems development. Revamped robotics dashboard interfaces, implemented API functionalities, resolved authentication issues, and integrated new features for improved usability and performance."
+  },
+  {
+  "id": "6",
+  "src": "./img/feather-pen-1.png",
+  "title": "Cloud Computing and AWS",
+  "description": "Utilized Amazon Web Services (AWS) for various projects, including OCR for data extraction and storage. Demonstrated proficiency in leveraging cloud technologies and services, reinforcing skills in cloud computing and DevOps practices."
+  },
+  {
+  "id": "7",
+  "src": "./img/feather-pen-1.png",
+  "title": "Problem-Solving and Critical Thinking",
+  "description": "Demonstrated ability to tackle complex challenges and find effective solutions through critical thinking and problem-solving skills. Experienced in analyzing requirements, identifying potential issues, and implementing innovative solutions."
+  },
+  {
+  "id": "8",
+  "src": "./img/feather-pen-1.png",
+  "title": "Collaboration and Teamwork",
+  "description": "Experienced in working effectively in team environments, as evidenced by group projects and internship experiences. Strong communication skills and ability to collaborate with cross-functional teams to achieve common goals."
+  }
+  ],
+  "portfolio": [
+    {
+    "id": "1",
+    "src": "./img/healthmate-image.png",
+    "title": "HealthMate",
+    "description": "A comprehensive fitness application facilitating calorie tracking and seamless activity syncing from Google Fitness. Developed using Java for the backend and integrated Firebase for efficient data storage and management.",
+    "link": "https://github.com/Collaboration95/HealthMate"
+    },
+    {
+    "id": "2",
+    "src": "./img/placeholder-image-1.png",
+    "title": "InvoiceHub",
+    "description": "A collaboration with a real-life client to address operational challenges. Implemented a solution to convert handwritten bills and receipts into a structured tabular format. Utilized JavaScript, HTML, CSS for the frontend, Express for backend routing, and integrated with a MySQL database. Leveraged Amazon AWS for image analysis and data extraction.",
+    "link": "https://github.com/Collaboration95/InvoiceHub"
+    },
+    {
+    "id": "3",
+    "src": "./img/placeholder-image-2.png",
+    "title": "Web Scraping Bots",
+    "description": "Developed Python bots utilizing web scraping techniques, including HTML parsing, to automate tasks such as conducting typing tests and checking university aircon balances from the command line. Utilized libraries like BeautifulSoup and Selenium for efficient web scraping and automation.",
+    "link": "https://github.com/Collaboration95/Interests"
+    },
+    {
+    "id": "4",
+    "src": "./img/placeholder-image-2.png",
+    "title": "Front-End Projects",
+    "description": "A collection of responsive webpages developed using HTML, CSS, and JavaScript, showcasing proficiency in front-end web development and implementing design best practices.",
+    "link": "https://github.com/Collaboration95/OdinProjects"
+    }
     ]
-
-}
+  }

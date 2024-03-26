@@ -746,3 +746,8 @@ body {
   }
   
   /* Responsive Screens Ends*/
+
+  .invisible{
+    opacity: 0;
+  }
+  

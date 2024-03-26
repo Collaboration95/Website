@@ -34,9 +34,21 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div>
+      {/* <div>
         <img src="./img/logo.svg" alt="Logoipsum" />
-      </div>
+      </div> */}
+            <Link
+        onClick={closeMenu}
+        activeClass="navbar--active-content"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        to="Contact"
+        className="btn btn-outline-primary invisible"
+      >
+        Contact Me
+      </Link>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
