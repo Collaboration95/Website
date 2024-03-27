@@ -251,6 +251,8 @@ body {
     font-weight: 700;
     line-height: 77px;
   }
+
+
   .skills--section--container {
     display: grid;
     justify-content: center;
@@ -394,7 +396,7 @@ body {
   }
   .portfolio--section--card:hover{
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.25);
-    transform: scale(1.1); /* Scale up by 10% on hover */
+    transform: scale(1.05); /* Scale up by 10% on hover */
   }
 
   .portfolio--section--card:hover path {
@@ -615,7 +617,10 @@ body {
       display: flex;
       flex-direction: column-reverse;
       padding-bottom: 70px;
+      align-items: center;
     }
+
+ 
     .hero--section--title,
     .hero--section-description,
     .footer--content {
@@ -680,6 +685,11 @@ body {
     }
     .divider {
       margin: 20px;
+    }
+    .hero-button {
+      display: flex;
+      justify-content: center;
+      margin:20px 170px 0px 170px;
     }
   }
   

@@ -6,7 +6,7 @@ export default function MyPortfolio() {
       <div className="portfolio--container-box">
         <div className="portfolio--container">
           <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          <h1 className="skills--sections--heading">My Portfolio</h1>
         </div>
         <div>
           <button className="btn btn-github" onClick={() => window.location.href = 'https://github.com/Collaboration95'}>
