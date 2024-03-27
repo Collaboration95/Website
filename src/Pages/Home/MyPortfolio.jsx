@@ -9,7 +9,7 @@ export default function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn-github">
+          <button className="btn btn-github" onClick={() => window.location.href = 'https://github.com/Collaboration95'}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -30,7 +30,7 @@ export default function MyPortfolio() {
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <div key={index} className="portfolio--section--card"  onClick={() => window.location.href = item.link}>
             <div className="portfolio--section--img">
               <img src={item.src} alt="Placeholder" />
             </div>

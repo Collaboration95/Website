@@ -66,14 +66,14 @@
     },
     {
     "id": "3",
-    "src": "./img/placeholder-image-2.png",
+    "src": "./img/web-scraping-bots.png",
     "title": "Web Scraping Bots",
     "description": "Developed Python bots utilizing web scraping techniques, including HTML parsing, to automate tasks such as conducting typing tests and checking university aircon balances from the command line. Utilized libraries like BeautifulSoup and Selenium for efficient web scraping and automation.",
     "link": "https://github.com/Collaboration95/Interests"
     },
     {
     "id": "4",
-    "src": "./img/placeholder-image-2.png",
+    "src": "./img/Front-endprojects.png",
     "title": "Front-End Projects",
     "description": "A collection of responsive webpages developed using HTML, CSS, and JavaScript, showcasing proficiency in front-end web development and implementing design best practices.",
     "link": "https://github.com/Collaboration95/OdinProjects"

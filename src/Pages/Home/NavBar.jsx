@@ -105,7 +105,6 @@ function Navbar() {
         </ul>
       </div>
       <Link
-        onClick={closeMenu}
         activeClass="navbar--active-content"
         spy={true}
         smooth={true}
@@ -113,6 +112,7 @@ function Navbar() {
         duration={500}
         to="Contact"
         className="btn btn-outline-primary"
+        onClick={() => window.location.href = 'https://www.linkedin.com/in/guruprasath3200/'}
       >
         Contact Me
       </Link>

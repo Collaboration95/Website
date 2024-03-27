@@ -10,13 +10,11 @@ export default function AboutMe() {
             <h1 className="skills-section--heading">About Me</h1>
             <p className="hero--section-description">
               I am a 3rd year CS student at SUTD with a passion for software development and design.
-              When im not thinking about my projects , I am either binge watching The Office or learning how to draw or hitting the gym .
+              When im not coding  , I am either binge watching The Office or learning how to sketch or hitting the gym .
           
             </p>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae?
+              I am always open to new oppertunities , whether you have a  cool project in mind or just want to chat , feel free to reach out to me.
             </p>
           </div>
         </div>
